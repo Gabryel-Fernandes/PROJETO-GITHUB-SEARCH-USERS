@@ -1,5 +1,5 @@
-import { user} from "/src/scripts/services/user.js";
-import { repositories} from "/src/scripts/services/repositories.js";
+import { user} from "./services/user.js";
+import { repositories} from "./services/repositories.js";
 
 
 document.getElementById('btn-search').addEventListener('click', () => {
